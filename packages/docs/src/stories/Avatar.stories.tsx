@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/enzodmrib.png',
     alt: 'Enzo Ribeiro',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
