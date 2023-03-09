@@ -14,6 +14,13 @@ module.exports = {
   core: {
     builder: "@storybook/builder-vite",
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/ignite-ui'
+    }
+
+    return config
+  }
   // async viteFinal(config) {
   //   return {
   //     ...config,
