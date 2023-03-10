@@ -1,12 +1,12 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@enzodmrib-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
-    "deploy-storybook": "storybook-to-ghpages", 
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "build-storybook"
   },
   "keywords": [],
@@ -27,10 +27,10 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@enzodmrib-ignite-ui/eslint-config": "*",
+    "@enzodmrib-ignite-ui/react": "*",
+    "@enzodmrib-ignite-ui/tokens": "*",
+    "@enzodmrib-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.16",
     "@storybook/addon-controls": "^6.5.16",
     "phosphor-react": "^1.4.1",
